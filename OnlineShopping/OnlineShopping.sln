@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShopping", "OnlineShopping.csproj", "{979572D2-C148-4CCF-8A01-772FC91701B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopAccounts", "..\ShopAccounts\ShopAccounts.csproj", "{3D733BA8-B614-4BA9-9E1A-1D6F0DA6350F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{979572D2-C148-4CCF-8A01-772FC91701B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979572D2-C148-4CCF-8A01-772FC91701B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979572D2-C148-4CCF-8A01-772FC91701B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979572D2-C148-4CCF-8A01-772FC91701B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D733BA8-B614-4BA9-9E1A-1D6F0DA6350F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D733BA8-B614-4BA9-9E1A-1D6F0DA6350F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D733BA8-B614-4BA9-9E1A-1D6F0DA6350F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D733BA8-B614-4BA9-9E1A-1D6F0DA6350F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F34B2AA-E876-4BF5-B00B-CEE55636C6AD}
+	EndGlobalSection
+EndGlobal

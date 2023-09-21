@@ -1,0 +1,67 @@
+﻿@model OnlineShopping.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+   
+}
+
+
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Buy_Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Buy_Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sell_Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sell_Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pic)
+        </dt>
+
+        <dd>
+            <img src="@Url.Content(Model.Pic)" width="100" />
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
